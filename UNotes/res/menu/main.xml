@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itAbrir" android:title="@string/menu_abrir"></item>
+    <item android:id="@+id/itVista" android:showAsAction="ifRoom" android:icon="@android:drawable/ic_menu_view" android:title="@string/menu_vista">
+        
+    </item>
+    <item android:id="@+id/itSincronizar" android:showAsAction="ifRoom" android:icon="@android:drawable/ic_popup_sync" android:title="@string/menu_sincronizar">
+        <menu>
+            <item android:id="@+id/itDropbox" android:title="@string/menu_sincronizar_dropbox"></item>
+            <item android:id="@+id/itDrive" android:title="@string/menu_sincronizar_drive"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/itGuardar" android:title="@string/menu_guardar"></item>
+    <item android:id="@+id/itExportar" android:title="@string/menu_exportar">
+        <menu>
+            <item android:id="@+id/itPdf" android:title="@string/menu_exportar_pdf"/>
+            <item android:id="@+id/itHtml" android:title="@string/menu_exportar_html"/>
+            <item android:id="@+id/itLatex" android:title="@string/menu_exportar_latex"/>
+        </menu>
+    </item>
+
+</menu>

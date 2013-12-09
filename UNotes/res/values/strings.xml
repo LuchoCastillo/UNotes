@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UNotes</string>
+    <string name="title_activity_vista">Vista Previa</string>
+    <string name="menu_abrir">Abrir</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_exportar">Exportar&#8230;</string>
+    <string name="menu_exportar_pdf">Pdf</string>
+    <string name="menu_exportar_html">Html</string>
+    <string name="menu_exportar_latex">Latex</string>
+    <string name="menu_sincronizar">Sincronizar</string>
+    <string name="menu_sincronizar_dropbox">Dropbox</string>
+    <string name="menu_sincronizar_drive">Google Drive</string>
+    <string name="menu_vista">Vista</string>
+
+</resources>
